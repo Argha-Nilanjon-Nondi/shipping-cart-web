@@ -367,6 +367,8 @@ select.form-input {
   .nav-account {
   }
 
+ 
+
   .nav-wrapper {
     position: absolute;
     top: 100%;
@@ -406,6 +408,13 @@ select.form-input {
     justify-content: center;
   }
 
+   .dilevery-status-btn{
+    width: 3rem;
+    height: 3rem;
+    font-size: 1.5rem;
+  }
+
+
   .pharcase-box {
     display: flex;
     flex-direction: column-reverse;
@@ -416,7 +425,12 @@ select.form-input {
   }
 
   .cart-item {
-    grid-template-columns: 4rem 15rem 6rem;
+    grid-template-columns: 5rem 14rem 6rem;
+  }
+
+  .cart-item-img{
+    width: 100%;
+    height: 5rem;
   }
 
   .payment-product-btn-collection {
