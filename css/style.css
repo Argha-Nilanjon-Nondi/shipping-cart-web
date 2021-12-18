@@ -291,7 +291,7 @@ select.form-input {
   border-width: inherit;
   display: flex;
   justify-content: space-between;
-  width: 17rem;
+  width: 70%;
   margin-top: 2rem;
   margin-bottom: 3rem;
 }
@@ -320,6 +320,7 @@ select.form-input {
 }
 
 .cart-item-info p {
+  font-size: 1rem;
 }
 
 .cart-item-info span {
@@ -368,7 +369,9 @@ select.form-input {
   .nav-account {
   }
 
- 
+ .form-input::placeholder{
+   font-size: 1.5rem;
+ }
 
   .nav-wrapper {
     position: absolute;
@@ -415,6 +418,13 @@ select.form-input {
     font-size: 1.5rem;
   }
 
+  .cart-gift-remind i{
+font-size: 1.7rem;
+  }
+
+  .cart-gift-remind p{
+font-size: 1.6rem;
+  }
 
   .pharcase-box {
     display: flex;
@@ -432,6 +442,22 @@ select.form-input {
   .cart-item-img{
     width: 100%;
     height: 5rem;
+  }
+
+  .cart-item-info p{
+    font-size: 1.3rem;
+  }
+
+  .cart-item-info span{
+    font-size: 1.2rem;
+  }
+
+  .cart-item-prize{
+    font-size: 1.2rem;
+  }
+
+  .cart-total-cost{
+    font-size: 1.5rem;
   }
 
   .payment-product-btn-collection {
@@ -492,12 +518,12 @@ select.form-input {
 
 @media screen and (min-width:320px) and (max-width:480px) {
    html {
-    font-size: 16px;
+    font-size: 12px;
   }
 
   .payment-dilevery-box{
      display: grid;
-    grid-template-columns:24rem;
+    grid-template-columns:96%;
     justify-content: center;
   }
 }
