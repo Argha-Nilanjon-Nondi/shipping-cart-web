@@ -131,7 +131,7 @@ header {
   background: none;
   text-transform: uppercase;
   border-radius: 31px 31px 32px 31px;
-  border-radius: 31px;
+  border-radius: 50rem;
   border: 2px solid darkgrey;
   transition-duration: 4ms;
   transition-property: all;
@@ -362,8 +362,9 @@ select.form-input {
 
 @media screen and (max-width: 1000px) {
   html {
-    font-size: 15px;
+    font-size: 8px;
   }
+
   .nav-account {
   }
 
@@ -491,7 +492,7 @@ select.form-input {
 
 @media screen and (min-width:320px) and (max-width:480px) {
    html {
-    font-size: 11px;
+    font-size: 16px;
   }
 
   .payment-dilevery-box{
