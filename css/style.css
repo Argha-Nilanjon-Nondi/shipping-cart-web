@@ -35,9 +35,11 @@ header {
 }
 
 .nav-toggle-btn {
+  display: none;
 }
 
 .nav-wrapper {
+  display: flex;
   list-style: none;
   background-color: white;
 }

@@ -5,6 +5,27 @@
     font-size: 12px;
   }
 
+  
+  .nav-catagory-item a {
+  }
+
+  .nav-toggle-btn {
+    display: block;
+  }
+
+  .header-box {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .nav-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+
+
+
   .nav-wrapper {
     position: absolute;
     top: 100%;
@@ -164,4 +185,12 @@ flex-direction: column;
     .payment-box{
         margin-top: 1rem;
     }
+}
+
+
+/*small screens*/
+@media screen and (max-width:500px) {
+  .payment-option-box,.dilevery-option-box{
+    justify-content: start;
+  }
 }
