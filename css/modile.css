@@ -1,0 +1,138 @@
+@media screen and (min-width: 0px) and (max-width: 500px) {
+  html {
+    font-size: 12px;
+  }
+
+  .nav-wrapper {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    left: 0;
+    visibility: hidden;
+    opacity: 0;
+    transform: translateY(-100%);
+    transition: transform 0.3s ease-out, opacity 0.3s ease-out;
+  }
+
+  .nav-wrapper.active {
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .nav-catagory-item {
+    padding: 0 0.3rem;
+  }
+
+  .container {
+    grid-template-columns: 96%;
+    justify-content: center;
+  }
+
+  .form-field-collection {
+    grid-template-columns: 98%;
+    justify-content: center;
+  }
+
+  .form-input::placeholder {
+    font-size: 1.5rem;
+  }
+
+  .dilevery-step-box {
+    margin-top: 2rem;
+    justify-content: center;
+  }
+
+  .dilevery-status-btn {
+    width: 3rem;
+    height: 3rem;
+    font-size: 1.5rem;
+  }
+
+  .pharcase-box {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .payment-box {
+    margin-top: 2rem;
+  }
+
+  .payment-option-box,
+  .dilevery-option-box {
+    justify-content: center;
+  }
+  .payment-option-btn,
+  .dilevery-option-btn {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+
+  .cart-item-collection {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .cart-item {
+display: flex;
+align-items: center;
+flex-direction: column;
+    justify-content: center;
+    padding: 1rem 0;
+    margin: 0.9rem;
+  }
+
+  .cart-item-img {
+      margin: 0 auto;
+    width: 8rem;
+    height: 8rem;
+  }
+
+  .cart-item-info p {
+    font-size: 1.3rem;
+    text-align: center;
+  }
+
+  .cart-item-info span {
+      display: block;
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  .cart-item-prize {
+    font-size: 1.2rem;
+    font-weight: 700;
+  }
+  .cart-total-cost {
+    font-size: 1.5rem;
+    width: 22rem;
+  }
+
+  .cart-gift-remind {
+    width: 87%;
+  }
+
+  .cart-gift-remind i {
+    font-size: 1.7rem;
+  }
+
+  .cart-gift-remind p {
+    font-size: 1.6rem;
+  }
+
+  .container-btn {
+    justify-content: space-between;
+  }
+  .payment-product-btn-collection {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .payment-product-btn {
+    margin-bottom: 0.5rem;
+  }
+}
