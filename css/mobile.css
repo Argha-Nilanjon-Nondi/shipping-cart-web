@@ -1,6 +1,6 @@
 /*for mobile , medium screen and tablets common*/
 
-@media screen and (min-width: 0px) and (max-width: 1300px) {
+@media screen and (min-width: 0px) and (max-width: 1200px) {
   html {
     font-size: 12px;
   }
@@ -162,7 +162,7 @@ flex-direction: column;
 /*small screens and tablets*/
 @media screen and (min-width:200px) and (max-width:330px){
 
-.dilevery-option-box{
+.payment-option-box{
   grid-template-columns: repeat(1,auto );
 }
 }
@@ -195,14 +195,14 @@ flex-direction: column;
 
 }
 
-@media screen and (min-width:462px) and (max-width:597px){
+@media screen and (min-width:462px) and (max-width:600px){
   .dilevery-option-box{
    
     grid-template-columns: repeat(3,auto);
 }
 }
 
-@media screen and (min-width:598px) and (max-width:1300px){
+@media screen and (min-width:601px) and (max-width:1200px){
   .dilevery-option-box{
    
     grid-template-columns: repeat(4,auto);
@@ -210,7 +210,7 @@ flex-direction: column;
 }
 
 
-@media screen and (min-width:1300px) {
+@media screen and (min-width:1200px) {
   .payment-option-box {
     grid-template-columns: repeat(3,auto);
 }
