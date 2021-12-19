@@ -226,9 +226,13 @@ select.form-input {
 
 .payment-option-box,
 .dilevery-option-box {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+      display: grid;
+    justify-content: space-between;
+    grid-template-columns: repeat(3,auto);
+}
+
+.dilevery-option-box{
+ grid-template-columns:repeat(2,auto); 
 }
 
 .payment-option-btn,
